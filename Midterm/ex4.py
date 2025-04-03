@@ -6,6 +6,6 @@ def fibonacci_sequence(n):
     for i in range(2, n + 1):
         fib[i] = fib[i - 1] + fib[i - 2]
     return fib
-n = int(input("Enter a number n to calculate the Fibonacci sequence up to nth number: "))
+n = int(input("Viết số n tương ứng số số hạng: "))
 fib_sequence = fibonacci_sequence(n)
-print(f"The Fibonacci sequence up to {n}th number is: {fib_sequence}")
+print(f"{fib_sequence}")
